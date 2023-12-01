@@ -1,0 +1,12 @@
+Button{
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    font-size: 2rem;
+}
+
+.anim{
+    box-shadow: 0 15px 18px 0 tomato;
+    opacity: 0.5;
+}
+

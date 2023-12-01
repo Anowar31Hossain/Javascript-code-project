@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Selector & Combinator</title>
+<style type="text/css">
+h1{
+background-color:green;
+text-align:center;
+}
+*{
+
+background-color:yellow;
+
+}
+h1,p{
+
+color:white;
+
+}
+div p{
+
+color:red;
+
+}
+div > p{
+color:green;
+
+}
+div + p{
+text-align:center;
+
+}
+div ~ p{
+color:pink;
+
+}
+
+</style>
+
+</head>
+<body>
+<h1>This is Anowar Hossain</h1>
+<p>This is a pragraph </p>
+<p>This is a pragraph </p>
+<div>
+<p>This is a pragraph </p>
+<p>This is a pragraph </p>
+<p>This is a pragraph </p>
+<p>This is a pragraph </p>
+<section><p>This is a pragraph</p></section>
+</div>
+<p>This is a pragraph </p>
+<p>This is a pragraph </p>
+</body>
+</html>

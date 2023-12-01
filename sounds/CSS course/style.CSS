@@ -1,0 +1,11 @@
+
+.r1{
+	width: 600px;
+	margin:auto;
+	border: 3px green solid;
+}
+.r2{
+	max-width: 600px;
+	margin:auto;
+	border: 3px green solid;
+}
